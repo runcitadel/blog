@@ -46,6 +46,8 @@
   export let date
   export let preview
   export let readingTime
+  export let authorName
+  export let authorLink
   export let slug
   export let next
   export let previous
@@ -91,6 +93,8 @@
     >
     •
     <span>{readingTime}</span>
+    •
+    <span>Written by <a href="{authorLink}">{authorName}</a></span>
   </div>
 
   <div class="relative">

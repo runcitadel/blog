@@ -1,6 +1,8 @@
 ---
 title: Welcome to this blog
 date: 2022-03-21
+authorName: Aaron Dewes
+authorLink: https://twitter.com/AaronDewes
 ---
 
 This is our new blog, which is still being set up.
