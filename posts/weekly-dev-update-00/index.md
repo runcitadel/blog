@@ -1,5 +1,5 @@
 ---
-title: Weekly development update \#0
+title: "Weekly development update #0"
 date: 2022-03-28
 authorName: Aaron Dewes
 authorLink: https://twitter.com/AaronDewes
@@ -83,8 +83,9 @@ The new OS, based on Manjaro, will also work on the Rockpro, Quartz64 (A and B) 
 
 ## Dark mode toggle
 
-<img src="dark-mode-toggle-1.png" style="height: 20rem;">
-<img src="dark-mode-toggle-2.png" style="height: 20rem;">
+<img src="./dark-mode-toggle-1.png" style="height: 20rem;" alt="Light mode toggle"/>
+
+<img src="./dark-mode-toggle-2.png" style="height: 20rem;" alt="Dark mode toggle"/>
 
 This week, [@pwltr](https://github.com/pwltr) also implemented the toggle in the screenshot above.
 Previously, whether your Citadel dashboard was shown in dark mode depended on your browser settings.
