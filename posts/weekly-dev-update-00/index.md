@@ -9,7 +9,7 @@ This is a new series where we will try to post what we did the previous week in 
 
 This is the first post in the series to check if we should write such a post weekly and what we could improve.
 
-I'll staert with this weeks progress.
+I'll start with this week's progress.
 
 ## Summary
 
