@@ -27,6 +27,8 @@ This week, we
 
 ## 🐝 Alby integration
 
+![A screenshot of Alby's Citadel connector](./alby-connector.png)
+
 This week, the [Alby](https://getalby.com) team launched a new release. This release made it much easier to connect your Alby to Citadel.
 
 Internally, this utilizes [the Citadel SDK](https://github.com/runcitadel/sdk), a tool to make it easier for the developers to integrate a Citadel connection into their app.
@@ -42,6 +44,8 @@ This is much simpler than the other connectors, because you do not need to log i
 - _Soon (?)_ Eclair
 
 ## c-lightning progress
+
+![c-lightning logo](./c-lightning_logo_white_on_dark_rgb.png)
 
 For c-lightning, we built our own library to make it easier for developers to integrate c-lightning into their application.
 
@@ -63,6 +67,8 @@ So far, we only got the core [Elements daemon](https://github.com/ElementsProjec
 
 ## App builder
 
+![A screenshot of the new app builder](./app-builder.png)
+
 We're also working on a new tool to make it easier for app developers to create apps for Citadel.
 
 Right now, it is pretty simple, but it allows developers to get started with our app.yml format faster.
@@ -77,5 +83,9 @@ The new OS, based on Manjaro, will also work on the Rockpro, Quartz64 (A and B) 
 
 ## Dark mode toggle
 
-TODO
+<img src="dark-mode-toggle-1.png" style="height: 20rem;">
+<img src="dark-mode-toggle-2.png" style="height: 20rem;">
 
+This week, [@pwltr](https://github.com/pwltr) also implemented the toggle in the screenshot above.
+Previously, whether your Citadel dashboard was shown in dark mode depended on your browser settings.
+With this new option, you can now choose it directly on the dashboard.
