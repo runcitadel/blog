@@ -9,6 +9,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@netlify/plugin-lighthouse": "^2.1.3",
 		"@sveltejs/adapter-netlify": "^1.0.0-next.59",
 		"@sveltejs/kit": "1.0.0-next.341",
 		"@tailwindcss/typography": "^0.5.2",
