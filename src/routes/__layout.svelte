@@ -34,9 +34,9 @@
             localStorage.setItem('prefersLight', prefersLight.toString())
 
             if (prefersLight) {
-              document.querySelector('html').classList.remove('dark')
+              document?.querySelector('html')?.classList?.remove('dark')
             } else {
-              document.querySelector('html').classList.add('dark')
+              document?.querySelector('html')?.classList?.add('dark')
             }
           }}
         >
