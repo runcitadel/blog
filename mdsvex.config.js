@@ -1,4 +1,3 @@
-import path from 'path'
 import { visit } from 'unist-util-visit'
 import autolinkHeadings from 'rehype-autolink-headings'
 import slugPlugin from 'rehype-slug'

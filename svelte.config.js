@@ -19,8 +19,8 @@ const config = {
 
   kit: {
     adapter: adapter({
-      edge: false,
-      split: true
+      edge: true,
+      split: false
     }),
 
     vite: {
