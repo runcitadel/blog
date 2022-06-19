@@ -50,7 +50,7 @@ You can choose what kind of updates you want to get in this release.
 
 Do you only want stable features? Or would you prefer some beta features? Or would you like to experiment with Core Lightning? All of that is now possible easily with our latest release.
 
-**New apps**
+**New app system**
 
 This update brings another internal redesign to our app system.
 
@@ -63,6 +63,14 @@ It was initially replaced by version 2, which still has certain issues, and late
 
 In the current release, we are releasing version 4 of that app format. Version 4 makes porting apps from Umbrel much easier, and also prepares for our next feature: quick updates.
 
+**New apps**
+
+This update features two new apps: Woofbot and Agora.
+
+Woofbot allows you to set up Telegram notifications for various things.
+
+Agora allows you to sell files over Tor & Lightning.
+
 **Quick updates**
 
 With Citadel 0.1.0, we are changing the way you can update your node. Most updates can now be installed with one click and take less than a minute of downtime, while keeping your Lightning node running.
@@ -70,7 +78,22 @@ With Citadel 0.1.0, we are changing the way you can update your node. Most updat
 This was made possible by some changes we made to Citadel to be more modular. Our app parser now runs in Docker, and so does most other stuff.
 
 So we have implemented a way to simply update a Docker container without having to restart everything.
+This means that most future updates can be done in less than a minute, without your Lightning node being down.
 
+**Translations**
+
+Our goal is to make Bitcoin & Lightning accessible to everyone. This update takes another step towards that goal.
+We've translated parts of our dashboard into German, to make Citadel accessible to more people who don't speak English.
+
+Not everything is translated yet, and you can not translate Citadel yourself easily, but we will soon make translations much easier to contribute to, so keep an eye on this blog to learn more.
+
+**New chat**
+
+We've finalized the changes to the Citadel chat announced in our forum. We now have these chats:
+
+- [Discord server](https://discord.gg/VfBMzYzprr)
+- [Matrix Space](https://matrix.to/#/#citadel:synapse.runcitadel.space)
+- Telegram chats: [Citadel main](https://t.me/runcitadel]; [Citadel german](https://t.me/citadelgerman]; [Citadel testers](https://t.me/citadeltesters]; [Citadel developers](https://t.me/citadeldevelopers]
 
 ### Future plans
 
@@ -79,4 +102,11 @@ TODO
 
 ### How you can help us
 
-TODO
+Citadel is run entirely by volunteers in their free time.
+
+You can support us by
+
+- [Donating](https://runcitadel.space)
+- Contributing to the development ([Get in touch](https://t.me/citadeldevelopers)) - We're mostly looking for JavaScript/TypeScript developers. Citadel also uses Python & Rust. On the front-end, we use Vue and React. If you are familiar with one of these technologies, please consider contributing.
+- Translating: Soon, Citadel will be translateable in more languages. We are looking for volunteers to translate Citadel. Join our translator chat to learn more.
+- Using Citadel and giving us feedback: We are always looking for feedback. We're still a relatively small project with about 150 users, so if you use Citadel, recommend it to others or let us know how we can do better, you can help a lot.
