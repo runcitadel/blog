@@ -93,7 +93,7 @@ We've finalized the changes to the Citadel chat announced in our forum. We now h
 
 - [Discord server](https://discord.gg/VfBMzYzprr)
 - [Matrix Space](https://matrix.to/#/#citadel:synapse.runcitadel.space)
-- Telegram chats: [Citadel main](https://t.me/runcitadel]; [Citadel german](https://t.me/citadelgerman]; [Citadel testers](https://t.me/citadeltesters]; [Citadel developers](https://t.me/citadeldevelopers]
+- Telegram chats: [Citadel main](https://t.me/runcitadel); [Citadel german](https://t.me/citadelgerman); [Citadel testers](https://t.me/citadeltesters); [Citadel developers](https://t.me/citadeldevelopers)
 
 ### Future plans
 
