@@ -36,7 +36,7 @@ And a lot more.
 
 ### What's coming today
 
-Today, we are releasing Citadel 0.1.0. While this is not a very big update, we still introduced some notable features:
+Today, we are announcing Citadel 0.1.0. While this is not a very big update, we still introduced some notable features:
 
 **Searching for apps in the app store**
 
@@ -95,10 +95,20 @@ We've finalized the changes to the Citadel chat announced in our forum. We now h
 - [Matrix Space](https://matrix.to/#/#citadel:synapse.runcitadel.space)
 - Telegram chats: [Citadel main](https://t.me/runcitadel); [Citadel german](https://t.me/citadelgerman); [Citadel testers](https://t.me/citadeltesters); [Citadel developers](https://t.me/citadeldevelopers)
 
+
 ### Future plans
 
-TODO
+There's still a lot to do for Citadel. Some of our future plans include
 
+- Support for more hardware (RockPro64, SoQuartz, Qoartz64, ...)
+- A FOSS UI
+- More apps
+- A community app store
+- Tipping app creators
+- Liquid integration
+
+
+And many more things. Not all of this will launch during the next year, but some things will.
 
 ### How you can help us
 
