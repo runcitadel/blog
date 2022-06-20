@@ -119,4 +119,4 @@ You can support us by
 - [Donating](https://runcitadel.space)
 - Contributing to the development ([Get in touch](https://t.me/citadeldevelopers)) - We're mostly looking for JavaScript/TypeScript developers. Citadel also uses Python & Rust. On the front-end, we use Vue and React. If you are familiar with one of these technologies, please consider contributing.
 - Translating: Soon, Citadel will be translateable in more languages. We are looking for volunteers to translate Citadel. Join our translator chat to learn more.
-- Using Citadel and giving us feedback: We are always looking for feedback. We're still a relatively small project with about 150 users, so if you use Citadel, recommend it to others or let us know how we can do better, you can help a lot.
+- Using Citadel and giving us feedback: We are always looking for feedback. We're still a relatively small project withonly  [about 150 users](https://users.runcitadel.space), so if you use Citadel, recommend it to others or let us know how we can do better, you can help a lot.
