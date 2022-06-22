@@ -34,7 +34,7 @@ We launched quite a lot of features in Citadel, so here's a short summary:
 
 And a lot more.
 
-### What's coming today
+### What's coming in July
 
 Today, we are announcing Citadel 0.1.0. While this is not a very big update, we still introduced some notable features:
 
@@ -44,7 +44,7 @@ As our app store grows, searching for certain apps has become a lot harder. So i
 
 This allows you to search for apps easily, and even if you make a typo, you should still get the result you're looking for.
 
-**Choosing an update channel**
+**Choosing an update branch**
 
 You can choose what kind of updates you want to get in this release.
 
@@ -71,6 +71,9 @@ Woofbot allows you to set up Telegram notifications for various things.
 
 Agora allows you to sell files over Tor & Lightning.
 
+Please note that Woofbot is not a FOSS app. We still decided to include it, because it may be useful for some users.
+This does not affect the Citadel license. Woofbot is still source viewable.
+
 **Quick updates**
 
 With Citadel 0.1.0, we are changing the way you can update your node. Most updates can now be installed with one click and take less than a minute of downtime, while keeping your Lightning node running.
@@ -87,7 +90,16 @@ We've translated parts of our dashboard into German, to make Citadel accessible 
 
 Not everything is translated yet, and you can not translate Citadel yourself easily, but we will soon make translations much easier to contribute to, so keep an eye on this blog to learn more.
 
-**New chat**
+**The new sats4.me**
+
+A lot of improvements to [sats4.me](https://sats4.me) are coming soon, we will make a separate blog post about that.
+
+### When is this releasing?
+
+This version of Citadel will be released during the next month. We will release some of these features to our beta testers today.
+
+
+### Citadel chat changes
 
 We've finalized the changes to the Citadel chat announced in our forum. We now have these chats:
 
@@ -106,7 +118,8 @@ There's still a lot to do for Citadel. Some of our future plans include
 - A community app store
 - Tipping app creators
 - Liquid integration
-
+- I2P
+- Easy SSL setup
 
 And many more things. Not all of this will launch during the next year, but some things will.
 
