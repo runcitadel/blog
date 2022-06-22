@@ -74,6 +74,10 @@ Agora allows you to sell files over Tor & Lightning.
 Please note that Woofbot is not a FOSS app. We still decided to include it, because it may be useful for some users.
 This does not affect the Citadel license. Woofbot is still source viewable.
 
+Woofbot is part of our nonfree apps repository. That repository includes apps which are not open source or who have parts based on Umbrel's app integration.
+
+Removing the non-free app repository can easily be done, which will be explained on our wiki when it launches.
+
 **Quick updates**
 
 With Citadel 0.1.0, we are changing the way you can update your node. Most updates can now be installed with one click and take less than a minute of downtime, while keeping your Lightning node running.
