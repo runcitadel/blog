@@ -17,7 +17,7 @@ This year, [Phil](https://github.com/pwltr) also joined the Citadel team as a fu
 
 All Citadel releases this year would not have been possible without them, and I am really grateful that to be able to develop Citadel together with them.
 
-### What we did over this year
+## What we did over this year
 
 We launched quite a lot of features in Citadel, so here's a short summary:
 
@@ -34,23 +34,29 @@ We launched quite a lot of features in Citadel, so here's a short summary:
 
 And a lot more.
 
-### What's coming in July
+Today, Citadel powers both home nodes and at least two online shops with BTCPay (We know of [snoepjes](https://snoepjes.de) and [Lightning Bits](https://lightning-bits.de))
+
+So huge thanks to all of our users and I hope you will continue running Citadel.
+
+![Our user count](/users.png)
+
+## What's coming in July
 
 Today, we are announcing Citadel 0.1.0. While this is not a very big update, we still introduced some notable features:
 
-**Searching for apps in the app store**
+### Searching for apps in the app store
 
 As our app store grows, searching for certain apps has become a lot harder. So in this release, we added a search bar to the app store.
 
 This allows you to search for apps easily, and even if you make a typo, you should still get the result you're looking for.
 
-**Choosing an update branch**
+### Choosing an update branch
 
 You can choose what kind of updates you want to get in this release.
 
 Do you only want stable features? Or would you prefer some beta features? Or would you like to experiment with Core Lightning? All of that is now possible easily with our latest release.
 
-**New app system**
+### App system
 
 This update brings another internal redesign to our app system.
 
@@ -59,11 +65,13 @@ Version 1 was the initial version of our app file format that made some Citadel 
 
 However, it had certain security risks and things that made it harder to use.
 
-It was initially replaced by version 2, which still has certain issues, and later version 3, which fixes most of them. Version 2 will be removed in Citadel 0.2.0.
+It was initially replaced by version 2, which still has certain issues, and later version 3, which fixes most of them. 
+
+We've removed version 1 in this update and version 2 will be removed in Citadel 0.2.0.
 
 In the current release, we are releasing version 4 of that app format. Version 4 makes porting apps from Umbrel much easier, and also prepares for our next feature: quick updates.
 
-**New apps**
+### New apps
 
 This update features two new apps: Woofbot and Agora.
 
@@ -78,7 +86,7 @@ Woofbot is part of our nonfree apps repository. That repository includes apps wh
 
 Removing the non-free app repository can easily be done, which will be explained on our wiki when it launches.
 
-**Quick updates**
+### Quick updates
 
 With Citadel 0.1.0, we are changing the way you can update your node. Most updates can now be installed with one click and take less than a minute of downtime, while keeping your Lightning node running.
 
@@ -87,23 +95,19 @@ This was made possible by some changes we made to Citadel to be more modular. Ou
 So we have implemented a way to simply update a Docker container without having to restart everything.
 This means that most future updates can be done in less than a minute, without your Lightning node being down.
 
-**Translations**
+### Translations
 
 Our goal is to make Bitcoin & Lightning accessible to everyone. This update takes another step towards that goal.
 We've translated parts of our dashboard into German, to make Citadel accessible to more people who don't speak English.
 
 Not everything is translated yet, and you can not translate Citadel yourself easily, but we will soon make translations much easier to contribute to, so keep an eye on this blog to learn more.
 
-**The new sats4.me**
-
-A lot of improvements to [sats4.me](https://sats4.me) are coming soon, we will make a separate blog post about that.
-
-### When is this releasing?
+## When is this releasing?
 
 This version of Citadel will be released during the next month. We will release some of these features to our beta testers today.
 
 
-### Citadel chat changes
+## Citadel chat changes
 
 We've finalized the changes to the Citadel chat announced in our forum. We now have these chats:
 
@@ -112,11 +116,11 @@ We've finalized the changes to the Citadel chat announced in our forum. We now h
 - Telegram chats: [Citadel main](https://t.me/runcitadel); [Citadel german](https://t.me/citadelgerman); [Citadel testers](https://t.me/citadeltesters); [Citadel developers](https://t.me/citadeldevelopers)
 
 
-### Future plans
+## Future plans
 
 There's still a lot to do for Citadel. Some of our future plans include
 
-- Support for more hardware (RockPro64, SoQuartz, Qoartz64, ...)
+- Support for more hardware (RockPro64, SoQuartz, Quartz64, ...)
 - A FOSS UI
 - More apps
 - A community app store
@@ -127,7 +131,35 @@ There's still a lot to do for Citadel. Some of our future plans include
 
 And many more things. Not all of this will launch during the next year, but some things will.
 
-### How you can help us
+## DTV Electronics
+
+I'm also really excited to announce that we are working together with DTV Electronics.
+
+DTV Electronics is a newly-founded company that focuses on Bitcoin products.
+
+There are two products I can announce today:
+
+First, DTV Electronics will offer prebuilt Citadel nodes with optimized hardware.
+With DTV's nodes, you get reliable hardware that is optimized for Citadel. That means: No more power issues, no more SSD issues, everything is ready out of the box.
+
+I will share more updates on that project soon.
+
+The second product by DTV Electronics is sats4me. We've transferred ownership of that project to DTV Electronics. DTV will make it possible to offer some additional features for sats4me. 
+
+There will be two paid tiers for sats4me. The core service and all features we have right now will stay free.
+
+However, we will launch some new features for paying users only. For users who pay, you can get these features:
+
+
+- **Custom domains**: You can have @yourdomain.com addresses instead of ones @sats4.me
+- **Tipping page customization**: You can customize your sats4me tipping page
+- **Faster speed**: Additionally, you can get a faster speed for your account. This works by using a specially optimized version of Tor.
+
+A feature we will launch for everyone are widgets. Widgets allow you to receive sats4me tips on any website easily.
+
+The new sats4me will launch once we've finalized some agreements regarding that.
+
+## How you can help us
 
 Citadel is run entirely by volunteers in their free time.
 
@@ -135,5 +167,5 @@ You can support us by
 
 - [Donating](https://runcitadel.space)
 - Contributing to the development ([Get in touch](https://t.me/citadeldevelopers)) - We're mostly looking for JavaScript/TypeScript developers. Citadel also uses Python & Rust. On the front-end, we use Vue and React. If you are familiar with one of these technologies, please consider contributing.
-- Translating: Soon, Citadel will be translateable in more languages. We are looking for volunteers to translate Citadel. Join our translator chat to learn more.
-- Using Citadel and giving us feedback: We are always looking for feedback. We're still a relatively small project withonly  [about 150 users](https://users.runcitadel.space), so if you use Citadel, recommend it to others or let us know how we can do better, you can help a lot.
+- Translating: Soon, Citadel will be translatable in more languages. We are looking for volunteers to translate Citadel. Join our translator chat to learn more.
+- Using Citadel and giving us feedback: We are always looking for feedback. We're still a relatively small project with only [about 180 users](https://users.runcitadel.space), so if you use Citadel, recommend it to others or let us know how we can do better, you can help a lot.
