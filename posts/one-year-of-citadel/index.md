@@ -135,7 +135,7 @@ And many more things. Not all of this will launch during the next year, but some
 
 ## DTV Electronics
 
-I'm also really excited to announce that we are working together with DTV Electronics.
+I'm also really excited to announce that we are working together with [DTV (Don't trust, verify) Electronics](https://dtvelectronics.com/).
 
 DTV Electronics is a newly-founded company that focuses on Bitcoin products.
 
