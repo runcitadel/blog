@@ -5,6 +5,8 @@ authorName: Aaron Dewes
 authorLink: https://twitter.com/AaronDewes
 ---
 
+![Header](/one-year.jpg)
+
 Today marks the one year anniversary of Citadel.
 
 One year ago, [I decided to leave Umbrel](https://twitter.com/AaronDewes/status/1409951211017625600) and focus on a FOSS node project. At that time, Citadel did not even have a name yet.
