@@ -10,7 +10,7 @@ customOgImage: https://one-year--citadel-blog.netlify.app/one-year.jpg
 
 Today marks the one year anniversary of Citadel.
 
-One year ago, [I decided to leave Umbrel](https://twitter.com/AaronDewes/status/1409951211017625600) and focus on a FOSS node project. At that time, Citadel did not even have a name yet.
+One year ago, [I decided to leave Umbrel](https://twitter.com/AaronDewes/status/1409951211017625600) with the goal of building an alternative that is open, free and eas-to-use. At that time, Citadel did not even have a name yet.
 
 I knew that I couldn't built such a project alone. Luckily, [Erik](https://twitter.com/uxerik_) joined the Citadel team early on, and built [our website](https://runcitadel.space) and also is helping a lot with designing the new dashboard.
 
@@ -41,6 +41,11 @@ Today, Citadel powers both home nodes and at least two online shops with BTCPay 
 So huge thanks to all of our users and I hope you will continue running Citadel.
 
 ![Our user count](/users.png)
+
+
+Overall, I am happy to say that my original goal for Citadel has been basically achieved. While our UI is not fully FOSS yet, everything else is.
+
+Citadel also allows 3rd party apps by modifying one config file. You can add apps from as many 3rd party sources as you like, while still keeping the security of your node (You can at least see what apps have access to before installing them, if an app has wallet access, you of course need to check its code to ensure it doesn't steal funds).
 
 ## What's coming in July
 
@@ -118,7 +123,7 @@ We've finalized the changes to the Citadel chat announced in our forum. We now h
 
 ## Future plans
 
-There's still a lot to do for Citadel. Some of our future plans include
+From the beginning of Citadel, we wanted to stay fully open. That also means sharing every plan with the community. While we shared most of these plans on various platforms already, here is a short list of what we currently have on our roadmap:
 
 - Support for more hardware (RockPro64, SoQuartz, Quartz64, ...)
 - A FOSS UI
@@ -126,6 +131,7 @@ There's still a lot to do for Citadel. Some of our future plans include
 - A community app store
 - Tipping app creators
 - Liquid integration
+- Finalizing Core Lightning integration
 - I2P
 - Easy SSL setup
 
@@ -349,13 +355,15 @@ There are two products I can announce today:
 First, DTV Electronics will offer prebuilt Citadel nodes with optimized hardware.
 With DTV's nodes, you get reliable hardware that is optimized for Citadel. That means: No more power issues, no more SSD issues, everything is ready out of the box.
 
+DTV Electronics shares our vision for a decentralized world where you don't have to trust anyone, so any firmware they developed for the hardware will be 100% open source under the GNU GPL.
+
 I will share more updates on that project soon.
 
-The second product by DTV Electronics is sats4me. We've transferred ownership of that project to DTV Electronics. DTV will make it possible to offer some additional features for sats4me.
+The second product by DTV Electronics is sats4me. We've transferred ownership of it to DTV Electronics, which will make it possible to offer some additional features for sats4me:
 
-There will be two paid tiers for sats4me. The core service and all features we have right now will stay free.
+While the core service and all features we have right now will stay free, there will be two paid tiers for sats4me.
 
-However, we will launch some new features for paying users only. For users who pay, you can get these features:
+Depending on what plan you choose, you can get some or all of these features:
 
 - **Custom domains**: You can have @yourdomain.com addresses instead of ones @sats4.me
 - **Tipping page customization**: You can customize your sats4me tipping page
@@ -363,11 +371,11 @@ However, we will launch some new features for paying users only. For users who p
 
 A feature we will launch for everyone are widgets. Widgets allow you to receive sats4me tips on any website easily.
 
-The new sats4me will launch once we've finalized some agreements regarding that.
+The new sats4me will launch once we've finished deciding on prices and have set up payment handling.
 
 ## How you can help us
 
-Citadel is run entirely by volunteers in their free time.
+Citadel is run entirely by volunteers in their free time, so we rely on your help to keep up the Citadel development.
 
 You can support us by
 
