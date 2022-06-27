@@ -31,14 +31,14 @@
   onMount(() => {
     updateHeadings()
     setActiveHeading()
-  })
 
-  if (typeof window !== 'undefined') {
+  if (typeof window !== 'undefined' && typeof document !== 'undefined') {
     page.subscribe(() => {
       updateHeadings()
       setActiveHeading()
     })
   }
+  })
 
   function setActiveHeading() {
     scrollY = window.scrollY
