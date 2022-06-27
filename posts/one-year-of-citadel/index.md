@@ -3,6 +3,7 @@ title: "One year of Citadel"
 date: 2022-06-29
 authorName: Aaron Dewes
 authorLink: https://twitter.com/AaronDewes
+customOgImage: /one-year.jpg
 ---
 
 ![Header](/one-year.jpg)
