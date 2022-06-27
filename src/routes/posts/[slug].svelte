@@ -46,6 +46,7 @@
   export let date
   export let preview
   export let readingTime
+  export let customOgImage
   export let authorName
   export let authorLink
   export let slug
@@ -53,7 +54,7 @@
   export let previous
 
   // generated open-graph image for sharing on social media. Visit https://og-image.vercel.app/ to see more options.
-  const ogImage = `https://og-image.vercel.app/**${encodeURIComponent(
+  const ogImage = customOgImage || `https://og-image.vercel.app/**${encodeURIComponent(
     title
   )}**?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg`
 
