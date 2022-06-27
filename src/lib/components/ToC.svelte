@@ -11,7 +11,7 @@
   function updateHeadings() {
     const nodes = [
       // Exclude h1 as those should be reserved for the post title
-      ...document?.querySelectorAll(`article :where(${allowedHeadings.join(', ')}):not(#__sections)`)
+      ...document.querySelectorAll(`article :where(${allowedHeadings.join(', ')}):not(#__sections)`)
     ]
     const depths = nodes.map((node) => Number(node.nodeName[1]))
     const minDepth = Math.min(...depths)
