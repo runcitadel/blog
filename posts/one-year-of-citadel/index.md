@@ -6,7 +6,7 @@ authorLink: https://twitter.com/AaronDewes
 customOgImage: https://one-year--citadel-blog.netlify.app/one-year.jpg
 ---
 
-![Header](/one-year.jpg)
+![Header](one-year.jpg)
 
 Today marks the one year anniversary of Citadel.
 
@@ -40,7 +40,7 @@ Today, Citadel powers both home nodes and at least two online shops with BTCPay 
 
 So huge thanks to all of our users and I hope you will continue running Citadel.
 
-![Our user count](/users.png)
+![Our user count](users.png)
 
 
 Overall, I am happy to say that my original goal for Citadel has been basically achieved. While our UI is not fully FOSS yet, everything else is.
