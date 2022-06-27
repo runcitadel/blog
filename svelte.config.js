@@ -18,7 +18,10 @@ const config = {
   ],
 
   kit: {
-    adapter: adapter(),
+    adapter: adapter({
+      edge: true,
+      split: false
+    }),
 
     vite: {
       // allows vite access to ./posts
