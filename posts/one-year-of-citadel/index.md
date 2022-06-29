@@ -12,7 +12,7 @@ Today marks the one year anniversary of Citadel.
 
 One year ago, [I decided to leave Umbrel](https://twitter.com/AaronDewes/status/1409951211017625600) with the goal of building an alternative that is open, free and eas-to-use. At that time, Citadel did not even have a name yet.
 
-I knew that I couldn't built such a project alone. Luckily, [Erik](https://twitter.com/uxerik_) joined the Citadel team early on, and built [our website](https://runcitadel.space) and also is helping a lot with designing the new dashboard.
+I knew that I couldn't build such a project alone. Luckily, [Erik](https://twitter.com/uxerik_) joined the Citadel team early on, and built [our website](https://runcitadel.space) and also is helping a lot with designing the new dashboard.
 
 Later that year, [William](https://github.com/WilliamConnatser) joined as a full-stack developer and is helping to build a new dashboard for Citadel.
 
