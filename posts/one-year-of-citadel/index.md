@@ -53,9 +53,13 @@ Today, we are announcing Citadel 0.1.0. While this is not a very big update, we 
 
 ### Searching for apps in the app store
 
+![App store search](./app-store.png)
+
 As our app store grows, searching for certain apps has become a lot harder. So in this release, we added a search bar to the app store.
 
 This allows you to search for apps easily, and even if you make a typo, you should still get the result you're looking for.
+
+As you can see, you may see other apps that are not the ones you are looking for. However, in all of our testing, the app we were looking for was the first result.
 
 ### Choosing an update branch
 
@@ -104,6 +108,8 @@ This means that most future updates can be done in less than a minute, without y
 
 ### Translations
 
+![Translations](./translations.png)
+s
 Our goal is to make Bitcoin & Lightning accessible to everyone. This update takes another step towards that goal.
 We've translated parts of our dashboard into German, to make Citadel accessible to more people who don't speak English.
 
