@@ -21,7 +21,7 @@ This will make interacting with your node via SSH much easier, and will also be 
 
 We want Citadel 0.1.0 to be a better release than what we had done previously.
 
-For thhis reason, we want to spend a lot time on ensuring these things:
+For this reason, we want to spend a lot time on ensuring these things:
 
 - Bug-free: Code should be tested better
 - Developer Experience: Developing apps for Citadel should be easy, porting apps from Umbrel should be able to happen in 5 minutes
