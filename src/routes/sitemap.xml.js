@@ -10,7 +10,7 @@ const postsUrl = `${website}/posts`
 /**
  * @type {import('@sveltejs/kit').RequestHandler}
  */
-export async function get() {
+export async function GET() {
   // helper for vscode syntax highlighting
   const xml = String.raw
 

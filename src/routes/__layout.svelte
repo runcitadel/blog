@@ -20,9 +20,6 @@
         </a>
       </h2>
       {#if browser}
-
-      <a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a>
-
         <button
           type="button"
           role="switch"
@@ -53,5 +50,18 @@
     >
       <slot />
     </main>
+    <footer class="mt-12 border-t-2 border-slate-500 pt-4 mb-2">
+      <span class="prose prose-slate prose-sm m-1">© 2022 The Citadel developers. Content is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons Attribution-ShareAlike 4.0 International</a
+        > license.</span
+      >
+      <a href="https://www.netlify.com" class="flex justify-center mt-2 text-center">
+        <img
+          src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg"
+          alt="Deploys by Netlify"
+        />
+      </a>
+    </footer>
   </div>
 </div>
+
