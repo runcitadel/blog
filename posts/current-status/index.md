@@ -5,7 +5,7 @@ authorName: Aaron Dewes
 authorLink: https://twitter.com/AaronDewes
 ---
 
-In this blog post, I'll try to explain why the net update is taking so long to develop, and provide more information about the current state of Citadel.
+In this blog post, I'll try to explain why the next update is taking so long to develop, and provide more information about the current state of Citadel.
 
 ## Current development status
 
