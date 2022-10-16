@@ -1,35 +1,3 @@
-<script context="module">
-  /**
-   * @type {import('@sveltejs/kit').Load}
-   */
-  export async function load({ params, fetch }) {
-    const { slug } = params
-
-    // fetch posts from endpoint so that it includes all metadata (see posts.json.js for explanation)
-    const posts = await fetch('/posts.json').then((res) => res.json())
-    const post = posts.find((post) => slug === post.slug)
-
-    if (!post) {
-      return {
-        status: 404,
-        error: 'Post not found'
-      }
-    }
-
-    const component = post.isIndexFile
-      ? // vite requires relative paths and explicit file extensions for dynamic imports
-        await import(`../../../posts/${post.slug}/index.md`)
-      : await import(`../../../posts/${post.slug}.md`)
-
-    return {
-      props: {
-        ...post,
-        component: component.default
-      }
-    }
-  }
-</script>
-
 <script>
   import { format, parseISO } from 'date-fns'
   import { page } from '$app/stores'
@@ -39,68 +7,57 @@
   import PostPreview from '$lib/components/PostPreview.svelte'
   import ArrowLeftIcon from '$lib/components/ArrowLeftIcon.svelte'
 
-  export let component
-
-  // metadata
-  export let title
-  export let date
-  export let preview
-  export let readingTime
-  export let customOgImage
-  export let authorName
-  export let authorLink
-  export let slug
-  export let next
-  export let previous
+  /** @type {import('./$types').PageData} */
+  export let data;
 
   // generated open-graph image for sharing on social media. Visit https://og-image.vercel.app/ to see more options.
-  const ogImage = customOgImage || `https://og-image.vercel.app/**${encodeURIComponent(
-    title
+  const ogImage = data.customOgImage || `https://og-image.vercel.app/**${encodeURIComponent(
+    data.title
   )}**?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg`
 
-  const url = `${website}/${slug}`
+  const url = `${website}/${data.slug}`
 </script>
 
 <svelte:head>
-  <title>{title}</title>
-  <meta name="description" content={preview.text} />
+  <title>{data.title}</title>
+  <meta name="description" content={data.preview.text} />
   <meta name="author" content={name} />
 
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content={url} />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content={title} />
-  <meta property="og:description" content={preview.text} />
+  <meta property="og:title" content={data.title} />
+  <meta property="og:description" content={data.preview.text} />
   <meta property="og:image" content={ogImage} />
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="twitter:domain" content={website} />
   <meta property="twitter:url" content={url} />
-  <meta name="twitter:title" content={title} />
-  <meta name="twitter:description" content={preview.text} />
+  <meta name="twitter:title" content={data.title} />
+  <meta name="twitter:description" content={data.preview.text} />
   <meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
 <article class="relative">
   <h1 class="!mt-0 !mb-2">
     <a class="!font-medium" href={$page.url.pathname}>
-      {title}
+      {data.title}
     </a>
   </h1>
   <div class="opacity-70">
-    <time datetime={new Date(parseISO(date)).toISOString()}
-      >{format(new Date(parseISO(date)), 'MMMM d, yyyy')}</time
+    <time datetime={new Date(parseISO(data.date)).toISOString()}
+      >{format(new Date(parseISO(data.date)), 'MMMM d, yyyy')}</time
     >
     •
-    <span>{readingTime}</span>
+    <span>{data.readingTime}</span>
     •
-    <span>Written by <a href="{authorLink}">{authorName}</a></span>
+    <span>Written by <a href="{data.authorLink}">{data.authorName}</a></span>
   </div>
 
   <div class="relative">
     <!-- render the post -->
-    <svelte:component this={component} />
+    <svelte:component this={data.component} />
 
     <!-- table of contents -->
     <div class="hidden xl:block absolute not-prose left-[100%]" aria-label="Table of Contents">
@@ -123,24 +80,24 @@
 </div>
 
 <!-- next/previous posts -->
-{#if previous || next}
+{#if data.previous || data.next}
   <hr />
   <div class="grid gap-8 grid-cols-1 sm:grid-cols-2">
-    {#if previous}
+    {#if data.previous}
       <div class="flex flex-col">
         <h6 class="not-prose post-preview-label">Previous Post</h6>
         <div class="flex-1 post-preview">
-          <PostPreview post={previous} small />
+          <PostPreview post={data.previous} small />
         </div>
       </div>
     {:else}
       <div />
     {/if}
-    {#if next}
+    {#if data.next}
       <div class="flex flex-col">
         <h6 class="not-prose post-preview-label flex justify-end">Next Post</h6>
         <div class="flex-1 post-preview">
-          <PostPreview post={next} small />
+          <PostPreview post={data.next} small />
         </div>
       </div>
     {/if}

@@ -11,7 +11,5 @@ export async function GET({ url: { searchParams } }) {
   const limit = searchParams.get('limit') ? parseInt(searchParams.get('limit')) : undefined
   const page = searchParams.get('page') ? parseInt(searchParams.get('page')) : undefined
 
-  return {
-    body: JSON.stringify(getPosts({ limit, page }))
-  }
+  return new Response(JSON.stringify(getPosts({ limit, page })))
 }

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "$lib":["src/lib"],
+      "$lib/*":["src/lib/*"]
+    }
+  },
+  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte", "src/routes/posts/[...page]/+page.ts", "src/routes/posts/[slug]/+page.ts"],
+  "extends": "./.svelte-kit/tsconfig.json"
+}

@@ -10,8 +10,8 @@
 	},
 	"devDependencies": {
 		"@netlify/plugin-lighthouse": "^3.0.1",
-		"@sveltejs/adapter-netlify": "^1.0.0-next.70",
-		"@sveltejs/kit": "1.0.0-next.392",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.81",
+		"@sveltejs/kit": "1.0.0-next.516",
 		"@tailwindcss/typography": "^0.5.4",
 		"autoprefixer": "^10.4.7",
 		"cssnano": "^5.1.12",
@@ -30,7 +30,7 @@
 		"svelte": "^3.49.0",
 		"svelte-preprocess": "^4.10.7",
 		"tailwindcss": "^3.1.6",
-		"typescript": "^4.7.4",
+		"typescript": "^4.8.4",
 		"unist-util-visit": "^4.1.0",
 		"vite": "^3.0.2"
 	},
