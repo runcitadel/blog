@@ -1,5 +1,8 @@
 import { getPosts } from '$lib/get-posts'
 
+
+export const prerender = false
+
 /**
  * An endpoint for the getPosts() function. Some of the metadata that gets added
  * is only available when run on the server (i.e node), so when we need to fetch
