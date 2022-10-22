@@ -55,7 +55,7 @@ We're planning to improve the user experience in this area further in upcoming u
 
 ![Currencies on Citadel](./currencies.png)
 
-While a lot of these changes have already been available for some time, we've made a few more improvements to make Citadel more accessible for the international community.
+While a lot of changes to prepare Citadel for translations have already been available for some time, we've made a few more improvements to make Citadel more accessible for the international community.
 
 Citadel has always shown the wallet balance in Sats/BTC and in USD. A lot of European users have asked if we could also allow to use Euro instead.
 
