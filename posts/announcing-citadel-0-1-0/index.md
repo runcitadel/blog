@@ -39,6 +39,8 @@ This helps keep the app store clean and avoid confusion.
 
 ### Cleaner app store UI
 
+![App Store search](./app-store-search.png)
+
 With our app store growing, it becomes harder to find the apps you like in it.
 
 To avoid this, we've made a few optimizations to how the app store looks.
@@ -64,8 +66,12 @@ So in the latest release, Citadel automatically detects your country and local c
 ## Visual improvements
 
 ![Update notification before redesign](./update-notification-before.png)
+![Update notification after redesign](./update-notification-after.png)
 
-The update notification has been redesigned in this update. While previously being present on the dashboard at all times, you can now simply close it if you don't want to update. We've also changed the update button position.
+The update notification has been redesigned in this update. While previously being present on the dashboard at all times, you can now simply close it if you don't want to update.
+
+We've also made a lot more minor visual improvements, and a lot more are coming with the next few updates.
+
 
 ## Adding back uptime
 
